@@ -72,7 +72,7 @@ else:
 
         try:
             response = requests.post(url, data=payload, headers=headers)
-            print(response.text)
+            print(response.json)
         except requests.exceptions.RequestException as e:
             print(f"Error while checking proxy {proxy}: {e}")
             continue
