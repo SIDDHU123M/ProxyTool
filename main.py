@@ -28,7 +28,7 @@ cls()
 banner = f"""
 {w}<{y}/{w}> {GB}{r}• Proxy Scrapper{Back.RESET}
 {w}<{y}/{w}> {WB}{b}• Author : SIDDHU123M (GIT){Back.RESET}
-{w}<{y}/{w}> {YB}{c}• Date and Time : {Back.RESET} {dattt}
+{w}<{y}/{w}> {YB}{c}• Date and Time : {Back.RESET} {dattt}"""
 
 def run_script(script_name):
     os.system(f"python {script_name}.py")
