@@ -31,8 +31,8 @@ dattt = now.strftime("%Y/%m/%d %H:%M:%S\n")
 cls()
 banner = f"""
 {w}<{y}/{w}> {GB}{r}• Proxy Scrapper{Back.RESET}
-{w}<{y}/{w}> {YB}{c}• Date and Time : {Back.RESET} {dattt}
 {w}<{y}/{w}> {WB}{b}• Author : SIDDHU123M (GIT){Back.RESET}
+{w}<{y}/{w}> {YB}{c}• Date and Time : {Back.RESET} {dattt}
 """
 
 space()
