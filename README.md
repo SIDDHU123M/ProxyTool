@@ -1,3 +1,5 @@
+![LOGO](https://user-images.githubusercontent.com/76509525/226552006-1a6190a1-2a9e-4c24-b602-a90581adc3e0.png)
+
 # ProxyTool
 
 ***ProxyTool is a command-line tool for managing and testing HTTP/HTTPS proxies written in Python. It provides features such as scraping proxies from websites, testing proxies for connectivity and speed, and exporting working proxies to a file. THis can be runned in both win, linux, terminal, pydroid***
@@ -18,4 +20,6 @@ To use the tool, simply run `python main.py`.
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=siddhu123m&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
+
 [![](https://visitcount.itsvg.in/api?id=SIDDHU123M&icon=0&color=0)](https://visitcount.itsvg.in)
+
