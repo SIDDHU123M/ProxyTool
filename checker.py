@@ -45,16 +45,7 @@ else:
         exit()
 
     with open(filename, 'r') as f:
-        proxies = f.readlines()
-
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': 'https://proxyscrape.com/',
-        'Upgrade-Insecure-Requests': '1'
-    }
+        proxies = f.readlines()
 
     request_interval = 5 # in seconds
     max_requests_per_interval = 5
@@ -73,7 +64,7 @@ else:
             start_time = time.time()
 
         try:
-            response = requests.post(url, data=payload, headers=headers)
+            response = requests.post(url, data=payload)
             print(f"{proxy}: {response.text}")
             if response.text.strip() == '1':
                 working_proxies.append(proxy)
