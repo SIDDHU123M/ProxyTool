@@ -1,5 +1,7 @@
 ![20230321_135510](https://user-images.githubusercontent.com/76509525/226584155-f1b851f6-dd60-4d75-b3eb-25690244f280.png)
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 # ProxyTool
 
 ***ProxyTool is a command-line tool for managing and testing HTTP/HTTPS proxies written in Python. It provides features such as scraping proxies from websites, testing proxies for connectivity and speed, and exporting working proxies to a file. THis can be runned in both win, linux, terminal, pydroid***
