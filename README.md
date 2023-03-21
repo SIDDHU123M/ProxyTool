@@ -1,4 +1,3 @@
-![20230321_135510](https://user-images.githubusercontent.com/76509525/226584155-f1b851f6-dd60-4d75-b3eb-25690244f280.png)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
