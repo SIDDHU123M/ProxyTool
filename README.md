@@ -1,6 +1,6 @@
-# Proxy_Tool
+# ProxyTool
 
-Proxy_Tool is a Python-based CLI tool that allows users to quickly scan and check the status of a list of proxy servers.
+ProxyTool is a Python-based CLI tool that allows users to quickly scan and check the status of a list of proxy servers.
 
 ## Installation
 
