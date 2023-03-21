@@ -1,6 +1,6 @@
 # ProxyTool
 
-ProxyTool is a Python-based CLI tool that allows users to quickly scan and check the status of a list of proxy servers.
+***ProxyTool is a command-line tool for managing and testing HTTP/HTTPS proxies written in Python. It provides features such as scraping proxies from websites, testing proxies for connectivity and speed, and exporting working proxies to a file.***
 
 ## Installation
 
