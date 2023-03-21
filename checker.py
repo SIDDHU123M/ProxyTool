@@ -23,21 +23,23 @@ def check_api_status():
 api_status = check_api_status()
 if api_status == 'banned':
     print("API is temporarily banned. Waiting for 5 minutes before trying again...")
+    time.sleep(300)
 elif api_status == 'temporarily banned':
     print("API is temporarily banned. Waiting for 5 minutes before trying again...")
+    time.sleep(300)
 else:
     working_proxies = []
     print("""
 1. Https / Http
 2. Socks4
 3. Socks5""")
-    inputt_filename = int(input("Which Type OF protocol you wanted to check : ")) # convert input to int
+    inputt_filename = int(input("Which type of protocol you want to check: ")) # convert input to int
     if inputt_filename == 1:
-        filename="Https.txt"
-    elif inputt_filename == 2: # use elif instead of if
-        filename="Socks4.txt"
-    elif inputt_filename == 3: # use elif instead of if
-        filename="Socks5.txt"
+        filename = "Https.txt"
+    elif inputt_filename == 2:
+        filename = "Socks4.txt"
+    elif inputt_filename == 3:
+        filename = "Socks5.txt"
     else:
         print("Invalid input. Exiting...")
         exit()
@@ -72,7 +74,9 @@ else:
 
         try:
             response = requests.post(url, data=payload, headers=headers)
-            print(response.json)
+            print(f"{proxy}: {response.text}")
+            if response.text.strip() == '1':
+                working_proxies.append(proxy)
         except requests.exceptions.RequestException as e:
             print(f"Error while checking proxy {proxy}: {e}")
             continue
