@@ -27,8 +27,22 @@ elif api_status == 'temporarily banned':
     print("API is temporarily banned. Waiting for 5 minutes before trying again...")
 else:
     working_proxies = []
+    print("""
+1. Https / Http
+2. Socks4
+3. Socks5""")
+    inputt_filename = int(input("Which Type OF protocol you wanted to check : ")) # convert input to int
+    if inputt_filename == 1:
+        filename="Https.txt"
+    elif inputt_filename == 2: # use elif instead of if
+        filename="Socks4.txt"
+    elif inputt_filename == 3: # use elif instead of if
+        filename="Socks5.txt"
+    else:
+        print("Invalid input. Exiting...")
+        exit()
 
-    with open('Https.txt', 'r') as f:
+    with open(filename, 'r') as f:
         proxies = f.readlines()
 
     headers = {
