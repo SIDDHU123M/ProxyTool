@@ -4,7 +4,7 @@ ProxyTool is a Python-based CLI tool that allows users to quickly scan and check
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/SIDDHU123M/Proxy_Tool.git`
+1. Clone the repository: `git clone https://github.com/SIDDHU123M/ProxyTool.git`
 2. Required modules will be directly installed by the script.
 
 ## Usage
